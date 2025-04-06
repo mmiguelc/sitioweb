@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #f4f4f47e;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+header, footer {
+    text-align: center;
+    padding: 1em 0;
+    margin: 0 auto;
+    background: white;
+}
+
+.container {
+    padding: 2em;
+    /*Add*/
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 890px;
+    /* max-width: 1024px; */
+    margin: 0 auto;
+}
+
+.responsive-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+}
+
+.responsive-grid #parrafo-contenido {
+    max-width: 54.3rem;
+    background: white;
+    text-align: justify;
+    padding: 1.5rem;
+    border-radius: 0.63rem;
+    font-size: clamp(1rem, 2vw, 1.52rem);
+}
+
+.responsive-grid #cont-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.responsive-grid img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+
+.responsive-grid #tit-contenido {
+    background-color: #F4F9B4;
+    padding: 1em;
+    border: 1px solid #f3f2f24b;
+    font-size: clamp(1rem, 3vw, 2.5rem);
+    border-radius: 0.63rem;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+#l-italica {
+    font-style: italic;
+}
+
+.responsive-grid #cuad {
+    padding: 20px;
+    border-radius: 0.63em;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background: rgba(255, 83, 218, 0.247);
+}

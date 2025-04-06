@@ -43,3 +43,9 @@ header, footer {
     font-size: clamp(1rem, 3vw, 2.5rem);
     border-radius: 10px;
 }
+
+.responsive-grid #cuad {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    background: rgba(255, 83, 218, 0.247);
+}
